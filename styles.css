@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    padding: 2rem;
+    text-align: center;
+    background: #007acc;
+    color: #fff;
+}
+
+#home h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: center;
+    background: #e8f5e9;
+}
+
+#about h2 {
+    color: #007acc;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 2rem;
+    text-align: center;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.item {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background: #fbe9e7;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #007acc;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005f99;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.item p{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item{
+    font-size: large;
+    background-color:rgba(108, 207, 207, 0.6);
+   
+}
+footer{
+    background-image: url(download.jpeg);
+    background-size: cover;
+    
+}
+
